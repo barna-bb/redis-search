@@ -1,10 +1,14 @@
+import SearchForm from "@/lib/SearchForm";
 import ExerciseForm from "@/lib/ExerciseForm";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <h1>Create Exercise</h1>
       <ExerciseForm />
-    </div>
+      <hr />
+      <h1>Find Exercise</h1>
+      <SearchForm />
+    </main>
   )
 }
